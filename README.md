@@ -5,4 +5,8 @@ This script builds upon code published here: https://medium.com/@neonforge/how-t
 
 Unfortunately, the original code split all images - whether they were grids or not - and had time-out issues with Discord. Adding to the code is the dumping of Discord message content so that you may reconstruct your prompts. Please remember, images have the job id imbedded in the name.
 
-Images are dropped in a subdirectory off of the one in which the script resides named "output"; prompts share the same name as the images and are located in the directory "message_text."
+Images are dropped in a subdirectory off of the one in which the script resides named "output"; prompts share the same name as the images and are located in the directory "message_text." "input" are scratch directories where the initial images are dropped and split.
+
+Contents:
+superphun-listener.py -> python script
+suprphun-listener.bat -> windows batch file that will execute the python script/ be sure to specify superphun-listener.py location
